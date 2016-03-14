@@ -1,17 +1,17 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
 }
 
-h1 {
+h2 {
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
@@ -27,6 +27,7 @@ p {
   position: relative;
   overflow: hidden;
 }
+
 .img-flex {
   display: block;
   width: 100%;
@@ -34,11 +35,12 @@ p {
 
 .banner-content {
   position: absolute;
-  bottom: 1.5em;
-  left: 15em;
-  right: 15em;
+  bottom: 2em;
+  left: 20em;
+  right: 20em;
 }
 
-.banner-content h1, .banner-content p {
+.banner-content h2, .banner-content p {
   margin: 0;
+  line-height: 1.5em;
 }
