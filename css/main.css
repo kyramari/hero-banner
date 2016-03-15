@@ -36,8 +36,10 @@ p {
 .banner-content {
   position: absolute;
   bottom: 2em;
-  left: 20em;
-  right: 20em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 45em;
 }
 
 .banner-content h2, .banner-content p {
